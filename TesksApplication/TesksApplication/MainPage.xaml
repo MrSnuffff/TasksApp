@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TesksApplication.MainPage">
+
+    <StackLayout BackgroundColor="AliceBlue" x:Name="stackLayout">
+       
+        <CollectionView x:Name="itemsCollection" >
+            <CollectionView.ItemTemplate >
+                <DataTemplate >
+                    <StackLayout Padding="7">
+                        <Frame BackgroundColor="White" CornerRadius="23" >
+                            <StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label x:Name="ItemIdLabel" IsVisible="False" Text="{Binding ID}" />
+                                    <Label FontSize="20" TextColor="#212738" Text="{Binding _NameTask}" />
+                                    <CheckBox x:Name="DeleteTask" HorizontalOptions="EndAndExpand" CheckedChanged="OnCheckBoxChecked" Style="{StaticResource CheckboxStyle}"></CheckBox>
+                                </StackLayout>
+                                <Label Text="{Binding _DP_Time_Tesk}"></Label>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Button
+            Clicked="CraetePageOpen"
+            Text="Новая зодача"
+            TextColor="White"
+            BackgroundColor="#1E90FF"
+            CornerRadius="17"
+            Margin="6,6,6,6"
+            VerticalOptions="EndAndExpand">
+            
+        </Button>
+    </StackLayout>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="CheckboxColor">#1E90FF</Color>
+
+            <Style x:Key="CheckboxStyle" TargetType="CheckBox">
+                <Setter Property="Color" Value="{StaticResource CheckboxColor}" />
+                <!-- Другие свойства стиля, если необходимо -->
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+</ContentPage>

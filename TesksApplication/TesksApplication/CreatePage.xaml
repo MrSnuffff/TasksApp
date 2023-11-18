@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TesksApplication.CreatePage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label FontSize="Small" Margin="30,10,30,0" FontAttributes="Bold">Кокую зодачу вы хотите сделать</Label >
+                <Frame BackgroundColor="AliceBlue" CornerRadius="20" Margin="5,0,5,5" >
+                    <Entry x:Name="NameTask" Placeholder="Введите имя новой зодачи" />
+                </Frame>
+
+                <Label FontSize="Small" Margin="30,5,30,0" FontAttributes="Bold">В какое время вы хотите начать работу</Label >
+                <Frame BackgroundColor="AliceBlue" CornerRadius="20" Margin="5,0,5,5">
+                    <TimePicker x:Name="TimePickerTesk" ></TimePicker>
+                </Frame>
+
+                <Label FontSize="Small" Margin="30,5,30,0" FontAttributes="Bold">В какой день зодача должна быть сделона</Label >
+                <Frame BackgroundColor="AliceBlue" CornerRadius="20" Margin="5,0,5,5">
+                    <DatePicker x:Name="DatePickerTesk"></DatePicker>
+                </Frame>
+
+                <Label FontSize="Small" Margin="30,5,30,0" FontAttributes="Bold">Сколько времени вы хотите уделить на выполнение зодачи</Label >
+                <Frame BackgroundColor="AliceBlue" CornerRadius="20" Margin="5,0,5,5">
+                    <Entry x:Name="TimeTask" Placeholder="Введите время" Keyboard="Numeric" />
+                </Frame>
+
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox x:Name="CheckBoxTesk" Margin="5"></CheckBox>
+                    <Label>Заблокировать телефон во врмея выполнения зодачи</Label>
+                </StackLayout>
+
+                <Button
+                    Clicked="MainPageOpen"
+                    Text="Готово"
+                    TextColor="White"
+                    BackgroundColor="#1E90FF"
+                    CornerRadius="17"
+                    Margin="6,6,6,6"
+                    VerticalOptions="EndAndExpand">
+                </Button>
+
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

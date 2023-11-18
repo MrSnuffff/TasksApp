@@ -1,0 +1,16 @@
+C:\Users\GURGEN\source\repos\TesksApplication\TesksApplication\TesksApplication\bin\Debug\netstandard2.0\TesksApplication.deps.json
+C:\Users\GURGEN\source\repos\TesksApplication\TesksApplication\TesksApplication\bin\Debug\netstandard2.0\TesksApplication.dll
+C:\Users\GURGEN\source\repos\TesksApplication\TesksApplication\TesksApplication\bin\Debug\netstandard2.0\ref\TesksApplication.dll
+C:\Users\GURGEN\source\repos\TesksApplication\TesksApplication\TesksApplication\bin\Debug\netstandard2.0\TesksApplication.pdb
+C:\Users\GURGEN\source\repos\TesksApplication\TesksApplication\TesksApplication\obj\Debug\netstandard2.0\TesksApplication.csproj.AssemblyReference.cache
+C:\Users\GURGEN\source\repos\TesksApplication\TesksApplication\TesksApplication\obj\Debug\netstandard2.0\TesksApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GURGEN\source\repos\TesksApplication\TesksApplication\TesksApplication\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\GURGEN\source\repos\TesksApplication\TesksApplication\TesksApplication\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\GURGEN\source\repos\TesksApplication\TesksApplication\TesksApplication\obj\Debug\netstandard2.0\TesksApplication.AssemblyInfoInputs.cache
+C:\Users\GURGEN\source\repos\TesksApplication\TesksApplication\TesksApplication\obj\Debug\netstandard2.0\TesksApplication.AssemblyInfo.cs
+C:\Users\GURGEN\source\repos\TesksApplication\TesksApplication\TesksApplication\obj\Debug\netstandard2.0\TesksApplication.csproj.CoreCompileInputs.cache
+C:\Users\GURGEN\source\repos\TesksApplication\TesksApplication\TesksApplication\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\GURGEN\source\repos\TesksApplication\TesksApplication\TesksApplication\obj\Debug\netstandard2.0\TesksApplication.dll
+C:\Users\GURGEN\source\repos\TesksApplication\TesksApplication\TesksApplication\obj\Debug\netstandard2.0\refint\TesksApplication.dll
+C:\Users\GURGEN\source\repos\TesksApplication\TesksApplication\TesksApplication\obj\Debug\netstandard2.0\TesksApplication.pdb
+C:\Users\GURGEN\source\repos\TesksApplication\TesksApplication\TesksApplication\obj\Debug\netstandard2.0\CreatePage.xaml.g.cs
