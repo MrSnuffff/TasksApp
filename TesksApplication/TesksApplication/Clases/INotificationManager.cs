@@ -6,6 +6,7 @@ namespace TesksApplication.Clases
 {
     public interface INotificationManager
     {
+        //void start();
         event EventHandler NotificationReceived;
         void Initialize();
         void SendNotification(string title, string message, DateTime? notifyTime = null);

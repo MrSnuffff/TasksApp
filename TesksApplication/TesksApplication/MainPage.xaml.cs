@@ -15,12 +15,14 @@ namespace TesksApplication
         public MainPage()
         {
             InitializeComponent();
+            
             notificationManager = DependencyService.Get<INotificationManager>();
             notificationManager.NotificationReceived += (sender, eventArgs) =>
             {
                 var evtData = (NotificationEventArgs)eventArgs;
                 ShowNotification(evtData.Title, evtData.Message);
             };
+            
         }
 
         public  void ShowNotif(item item)
@@ -30,7 +32,10 @@ namespace TesksApplication
             notificationManager.SendNotification(title, message);
 
         }
-        
+        public void ShowNotifAS(string title, string message)
+        {            
+            notificationManager.SendNotification(title, message);
+        }
 
         void ShowNotification(string title, string message)
         {

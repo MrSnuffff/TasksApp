@@ -16,7 +16,6 @@
     </intent>
   </queries>
   <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/icon" android:label="TesksApplication.Android" android:theme="@style/MainTheme">
-    <receiver android:name="crc646dc39a88dc7a6b27.BackgroundReceiver" />
     <activity android:name="crc646dc39a88dc7a6b27.MainActivity" android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:exported="true" android:icon="@mipmap/icon" android:label="TesksApplication" android:theme="@style/MainTheme">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

@@ -1,6 +1,3 @@
-TesksApplication.Droid.BackgroundReceiver, TesksApplication.Android;crc646dc39a88dc7a6b27.BackgroundReceiver
-TesksApplication.Droid.BackgroundReceiver;crc646dc39a88dc7a6b27.BackgroundReceiver
-tesksapplication.droid.BackgroundReceiver;crc646dc39a88dc7a6b27.BackgroundReceiver
 TesksApplication.Droid.MainActivity, TesksApplication.Android;crc646dc39a88dc7a6b27.MainActivity
 TesksApplication.Droid.MainActivity;crc646dc39a88dc7a6b27.MainActivity
 tesksapplication.droid.MainActivity;crc646dc39a88dc7a6b27.MainActivity
